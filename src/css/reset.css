@@ -34,3 +34,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  max-width: 375px;
+  background: var(--black, #121212);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
