@@ -4,8 +4,9 @@
   margin: 0 auto;
   background-color: #000;
 }
-.sign_up {
-}
+
+.sign_up {}
+
 .sign-up-title {
   color: #fff;
 
@@ -13,29 +14,35 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
+  line-height: 1.14;
+  /* 114.286% */
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
+
 .sign-up-title-span {
   color: #bea69e;
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
+  line-height: 1.14;
+  /* 114.286% */
   letter-spacing: -0.04em;
 }
+
 .sign-up-text {
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29;
+  /* 128.571% */
   letter-spacing: -0.02em;
   margin-bottom: 41px;
 }
+
 .sign-up-input {
   padding: 14px 210px 14px 18px;
   background-color: inherit;
@@ -43,15 +50,18 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 8px;
 }
+
 .sign-up-input::placeholder {
   width: 107px;
   height: 18px;
   flex-shrink: 0;
 }
+
 .sign-up-textarea {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .sign-up-dop-text {
   color: rgba(255, 255, 255, 0.5);
 
@@ -59,8 +69,10 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.33; /* 133.333% */
+  line-height: 1.33;
+  /* 133.333% */
 }
+
 .sign-up-dop-text-link {
   color: rgba(255, 255, 255, 0.5);
   font-family: DM Sans;
@@ -69,4 +81,8 @@
   font-weight: 400;
   line-height: 1.33;
   text-decoration-line: underline;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
