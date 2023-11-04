@@ -1,78 +1,126 @@
 .container-sign-up {
-  padding-right: 20px;
-  padding-left: 20px;
+  width: 100%;
   margin: 0 auto;
+}
+.sign-up {
   background-color: #000;
 }
-
-.sign_up {}
-
 .sign-up-title {
+  height: 32px;
   color: #fff;
 
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14;
-  /* 114.286% */
+  line-height: 1.14; /* 114.286% */
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
-
 .sign-up-title-span {
   color: #bea69e;
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14;
-  /* 114.286% */
+  line-height: 1.14; /* 114.286% */
   letter-spacing: -0.04em;
 }
-
 .sign-up-text {
+  width: 100%;
+  height: 54px;
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.29;
-  /* 128.571% */
+  line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
   margin-bottom: 41px;
 }
-
 .sign-up-input {
-  padding: 14px 210px 14px 18px;
+  width: 100%;
+  padding: 14px 0 14px 18px;
   background-color: inherit;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 8px;
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.sign-up-input:hover,
+.sign-up-input:focus {
+  border-color: #ffffff80;
+}
 .sign-up-input::placeholder {
-  width: 107px;
-  height: 18px;
-  flex-shrink: 0;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
 }
-
 .sign-up-textarea {
+  width: 100%;
+  height: 112px;
+  padding: 14px 0 14px 18px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-}
+  background-color: inherit;
+  resize: none;
+  overflow: hidden;
+  margin-bottom: 40px;
+  color: #fff;
 
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+}
+.sign-up-textarea::placeholder {
+}
+.sign-up-btn {
+  width: 100%;
+  display: flex;
+  padding: 14px 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  background: var(--white, #fff);
+  color: var(--black, #121212);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25; /* 125% */
+  text-transform: uppercase;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sign-up-btn:hover,
+.sign-up-btn:focus {
+  background-color: #1d1d1d;
+  color: #bea69e;
+}
 .sign-up-dop-text {
+  width: 100%;
+  height: 48px;
   color: rgba(255, 255, 255, 0.5);
 
   font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.33;
-  /* 133.333% */
+  line-height: 1.33; /* 133.333% */
 }
-
 .sign-up-dop-text-link {
   color: rgba(255, 255, 255, 0.5);
   font-family: DM Sans;
@@ -82,3 +130,141 @@
   line-height: 1.33;
   text-decoration-line: underline;
 }
+/* .container-sign-up-img {
+  display: none;
+} */
+
+@media screen and (min-width: 375px) {
+  .container-sign-up {
+    max-width: 375px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-sign-up {
+    max-width: 480px;
+
+    padding: 0;
+    margin-left: 32px;
+  }
+  .sign-up-title {
+    width: 159px;
+    height: 54px;
+    color: #fff;
+
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.13; /* 112.5% */
+    letter-spacing: -0.04em;
+  }
+  .sign-up-title-span {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+  }
+  .sign-up-text {
+    width: 480px;
+    height: 40px;
+    color: #fff;
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+  }
+  .sign-up-form {
+    height: 307px;
+  }
+  .sign-up-input {
+    width: 480px;
+    height: 60px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25; /* 125% */
+    margin-bottom: 14px;
+    padding: 20px 0 20px 18px;
+  }
+  .sign-up-textarea {
+    width: 480px;
+    height: 119px;
+    padding: 20px 0 79px 18px;
+    color: #fff;
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25; /* 125% */
+  }
+  .sign-up-btn {
+    width: 480px;
+    padding: 16px 216px;
+    color: var(--black, #121212);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.56; /* 155.556% */
+    text-transform: uppercase;
+    margin-bottom: 21px;
+  }
+  .sign-up-dop-text {
+    width: 480px;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29; /* 128.571% */
+  }
+  .sign-up-dop-text-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    text-decoration-line: underline;
+  }
+}
+/* @media screen and (min-width: 1280px) {
+  .container-section-sign-up {
+    width: 1178px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px;
+  }
+  .container-sign-up {
+    margin: 0;
+  }
+  .container-sign-up-img {
+    display: block;
+  }
+  .sign-up-list {
+  }
+  .sign-up-item-first:empty {
+    border-radius: 1000px;
+    background-color: #bea69e;
+  }
+  .sign-up-item-second:empty {
+    border-radius: 1000px;
+    background: #1d1d1d;
+  }
+  .hidden-hello {
+    display: none;
+  }
+} */
