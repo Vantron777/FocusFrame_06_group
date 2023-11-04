@@ -18,10 +18,12 @@ body {
   background-color: #121212;
   padding: 9px 20px;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
 }
+
 .logo-header {
   margin-right: auto;
 }
@@ -33,6 +35,7 @@ body {
 .header-menu-list {
   display: none;
 }
+
 .header-nav-link {
   background-color: #1d1d1d;
   border-radius: 50%;
@@ -66,6 +69,7 @@ body {
   justify-content: center;
   padding: 5px 0;
 }
+
 .btn-menu-icon {
   stroke: white;
 }
@@ -109,13 +113,15 @@ body {
   background-position: bottom;
   background-size: 218px;
 }
+
 @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .mob-menu {
     background-image: url(../img/header/mob-bg-img-2x.png);
   }
 }
+
 .mob-menu-btn {
   width: 32px;
   height: 32px;
@@ -129,6 +135,7 @@ body {
   right: 20px;
   padding: 0;
 }
+
 .mob-menu-icon {
   stroke: black;
 }
@@ -218,8 +225,8 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .mob-menu {
       background-image: url(../img/header/tab-bg-img-2x.png);
     }
@@ -234,6 +241,7 @@ body {
     width: 40px;
     height: 40px;
   }
+
   .mob-menu-list {
     gap: 28px;
     margin-top: 232px;
