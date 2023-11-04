@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream:src/css/sign-up.css
-.sign-up {
-    background-color: darkmagenta;
-}
-=======
 .container-sign-up {
   padding-right: 20px;
   padding-left: 20px;
@@ -75,4 +70,3 @@
   line-height: 1.33;
   text-decoration-line: underline;
 }
->>>>>>> Stashed changes:src/css/sign_up.css
