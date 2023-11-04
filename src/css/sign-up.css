@@ -129,9 +129,9 @@
   line-height: 1.33;
   text-decoration-line: underline;
 }
-/* .container-sign-up-img {
+.container-sign-up-img {
   display: none;
-} */
+}
 
 @media screen and (min-width: 375px) {
   .container-sign-up {
@@ -240,30 +240,103 @@
     text-decoration-line: underline;
   }
 }
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container-section-sign-up {
-    width: 1178px;
+    width: 1080px;
     display: flex;
     flex-direction: row;
     margin: 0 100px;
+    gap: 60px;
   }
   .container-sign-up {
     margin: 0;
   }
   .container-sign-up-img {
+    width: 540px;
+    height: 540px;
     display: block;
   }
   .sign-up-list {
+    display: flex;
+    flex-direction: row;
   }
-  .sign-up-item-first:empty {
+  .sign-up-item-first {
+    width: 180px;
+    height: 540px;
+    padding: 252px 0 0 0;
+    margin-right: 20px;
+  }
+  .img-container-first {
+    width: 180px;
+    height: 288px;
+    padding: 76px 19px 62px 19px;
+    flex-shrink: 0;
     border-radius: 1000px;
     background-color: #bea69e;
   }
-  .sign-up-item-second:empty {
+  .img-first {
+    width: 150px;
+    height: 142px;
+    background-image: url(../img/sign-up/first@x1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .img-first {
+      background-image: url(../img/sign-up/first@x2.png);
+    }
+  }
+  .sign-up-item-second {
+    width: 340px;
+    height: 540px;
+    padding: 156px 50px 88px 50px;
+    flex-shrink: 0;
     border-radius: 1000px;
     background: #1d1d1d;
   }
-  .hidden-hello {
-    display: none;
+  .img-second {
+    width: 240px;
+    height: 296px;
+    background-image: url(../img/sign-up/second@x1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
-} */
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .img-second {
+      background-image: url(../img/sign-up/second@x2.png);
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-section-sign-up {
+    gap: 200px;
+  }
+  .container-sign-up-img {
+    width: 560px;
+  }
+  .sign-up-item-first {
+    width: 190px;
+  }
+  .img-container-first {
+    width: 190px;
+    padding: 63px 18px 62px 18px;
+  }
+  .img-first {
+    width: 163px;
+    height: 154px;
+  }
+  .sign-up-item-second {
+    width: 350px;
+    padding: 138px 48px 88px 48px;
+  }
+  .img-second {
+    width: 254px;
+    height: 313px;
+  }
+}
