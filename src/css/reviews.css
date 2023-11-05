@@ -1,5 +1,5 @@
 .container {
-  background: var(--black, #121212);
+  
 }
 
 .reviews-container {
@@ -37,12 +37,9 @@
 
 .reviews-list-text {
     color: rgba(255, 255, 255, 0.50);
-        font-family: DM Sans;
         font-size: 14px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.28;
-        /* 128.571% */
         letter-spacing: -0.02em;
 }
 
@@ -74,5 +71,5 @@
 
 }
 @media screen and (min-width: 1280px){
-  
+
 }
