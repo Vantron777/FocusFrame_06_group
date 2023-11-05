@@ -1,3 +1,82 @@
-.hero {
-    background-color: red;
+.hero{
+    background: var(--black, #121212);
+    padding: 20px 20px 80px 20px;
+}
+.hero-container{
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1D1D1D;
+    border-radius: 30px;
+}
+
+.hero-title{
+    max-width: 295px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    padding: 40px 20px 20px 20px;
+}
+
+.hero-title-ph{   
+    color: #BEA69E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-style: italic; /* no italic in   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
+    rel="stylesheet"> */
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+}
+.hero-txt{
+    display: block;
+    max-width: 295px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28571; 
+    letter-spacing: -0.02em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hero-img{
+    margin-top: 31px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+@media screen and (min-width:768px){
+    .hero-container{
+        max-width: 768px;
+    }
+    .hero-title{
+        max-width: 517px;
+        font-size: 60px;
+        line-height: 1.066;
+        padding-top: 64px;
+        padding-left: 32px;
+        padding-bottom: 20px;
+    }
+    .hero-title-ph{
+        font-size: 60px;  
+    }
+    .hero-txt{
+        display: block;
+        width: 418px;
+        margin-left: 32px;
+        margin-bottom: 40px;
+        margin-right: 254px;
+    }
+    .hero-img{
+        margin-top: 40px;
+        margin-left: 156px;
+        margin-right: 156px;
+    }
+
 }
