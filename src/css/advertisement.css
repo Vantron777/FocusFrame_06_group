@@ -4,8 +4,6 @@
 .advertisement-div {
   display: flex;
 }
-.container {
-}
 
 .advertisement-text {
   color: #bea69e;
@@ -53,7 +51,7 @@
 @media screen and (min-width: 375px) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .advertisement-text {
     font-size: 40px;
     line-height: 1.25;
