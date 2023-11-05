@@ -2,6 +2,8 @@
 body {
   font-family: 'DM Sans',
     sans-serif;
+  color: #fff;
+  background-color: #121212;
 }
 
 h1,
@@ -44,13 +46,6 @@ img {
   margin-right: auto;
 }
 
-/* 
-body {
-  color: #fff;
-  background-color: #121212;
-} */
-
-/* 
 .container {
   width: 100%;
   margin: 0 auto;
@@ -84,4 +79,4 @@ body {
   .container {
     max-width: 1440px;
   }
-} */
+}
