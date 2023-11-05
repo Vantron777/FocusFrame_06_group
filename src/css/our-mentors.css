@@ -1,3 +1,27 @@
-.our-mentors {
-    background-color: cadetblue;
+
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+.our-mentors-title {
+    color: #FFFFFF;
 }
+.our-mentors-title-part-two {
+    color: #BEA69E;}
+.main-content-team-list {    
+    display: flex;
+}
+
+.team-person {    
+    padding: 32px 0;
+}
+.main-content-team-person {
+    color: #FFFFFF;}
+.main-content-team-person-practice {color: #FFFFFF80;
+;}
