@@ -1,21 +1,39 @@
 .footer {
-    background-color: blue;
+    background-image: url(../img/footer/Graphic-mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
 
 }
 
-.footer {}
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image:
+            url(../img/footer/Graphic-mob-2x.png);
+    }
+}
 
-.container {}
-
-.footer-logo {}
-
-.footer-logo-icon {}
+.footer-container {
+    padding: 40px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 .footer-top {}
 
-.footer-logo {}
+.footer-logo {
+    fill: #ffffff;
+    margin-bottom: 16px;
+}
 
-.footer-address-wrap {}
+.footer-logo-icon {}
+
+.footer-address-wrap {
+    margin-bottom: 40px;
+}
 
 .footer-address {}
 
@@ -23,34 +41,79 @@
 
 .footer-address-item {}
 
-.footer-address-link {}
+.footer-address-link {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+}
 
-.footer-soc-wrap {}
+.footer-soc-wrap {
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
 
-.footer-soc-list {}
+.footer-soc-list {
+    gap: 14px;
+}
 
 .footer-soc-item {}
 
-.footer-soc-link {}
+.footer-soc-link {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
 .footer-navigation-wrap {}
 
 .footer-navigation {}
 
-.footer-menu-list {}
+.footer-menu-list {
+    /
+}
 
 .footer-menu-item {}
 
-.footer-menu-link {}
+.footer-menu-link {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
 .footer-form {}
 
-.footer-input {}
+.footer-input {
+    width: 267px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+}
 
 .footer-form-btn {}
 
-.footer-bottom {}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.footer-text {}
-
-.footer-subtext {}
+.footer-text {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+}
