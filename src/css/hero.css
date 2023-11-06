@@ -50,6 +50,92 @@
     margin-left: 38px;
     margin-right: 38px;
 }
+.three-photo{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.three-photo-list{
+    display: flex;
+}
+.three-photo-list-item-img1{
+    position: absolute;
+    border-radius: 100px;
+    border: 2px solid #1D1D1D;
+    z-index: 3;
+    margin-left: 0;
+}
+.three-photo-list-item-img2{
+    position: absolute;
+    border-radius: 100px;
+    border: 2px solid #1D1D1D;
+    z-index: 2;
+    margin-left: 32px;
+}
+.three-photo-list-item-img3{
+    position: absolute;
+    border-radius: 100px;
+    border: 2px solid #1D1D1D;
+    z-index: 1;
+    margin-left: 64px;
+}
+.review-star-list-item-let{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.285; 
+    letter-spacing: -0.04em;
+}
+.review-star-list-item-num{
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125;
+    letter-spacing: -0.04em;
+    margin-top: 4px;
+}
+.review-star-list-item-art{
+    height: 44px;
+    width: 44px;
+    border-radius: 100px;
+    background-color: #BEA69E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-star-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 189px;
+    gap: 12px;
+}
+.stud{
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.285; 
+    letter-spacing: -0.04em;
+    width: 67px;
+}
+.review-stud-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.review-stud{
+    padding-left: 20px;
+}
+.review-stud-list-item-arr{
+    margin-left: 4px;
+}
+
+
+
 
 @media screen and (min-width:768px){
     .hero-container{
@@ -68,7 +154,7 @@
     }
     .hero-txt{
         display: block;
-        width: 418px;
+        max-width: 418px;
         margin-left: 32px;
         margin-bottom: 40px;
         margin-right: 254px;
@@ -78,5 +164,10 @@
         margin-left: 156px;
         margin-right: 156px;
     }
-
+    .three-photo{
+        margin-left: 32px;
+    }
+    .review-star-list{
+        margin-left: 303px;
+    }
 }
