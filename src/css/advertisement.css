@@ -10,7 +10,7 @@
   font-size: 28px;
   font-weight: 400;
   line-height: 1.14;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -19,8 +19,8 @@
   color: #fff;
   font-size: 28px;
   font-weight: 400;
-  line-height: 32px;
-  letter-spacing: -0.56px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -59,8 +59,8 @@
   }
 
   .advertisement-text-span {
-    font-size: 28px;
-    line-height: 1.14;
+    font-size: 40px;
+    line-height: 1.25;
     letter-spacing: -0.02em;
   }
 }
