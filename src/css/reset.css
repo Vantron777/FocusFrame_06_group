@@ -2,6 +2,8 @@
 body {
   font-family: 'DM Sans',
     sans-serif;
+  color: #fff;
+  background-color: #121212;
 }
 
 h1,
@@ -36,22 +38,6 @@ img {
 }
 
 .container {
-  max-width: 375px;
-  background: var(--black, #121212);
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* 
-body {
-  color: #fff;
-  background-color: #121212;
-} */
-
-/* 
-.container {
   width: 100%;
   margin: 0 auto;
 }
@@ -84,4 +70,4 @@ body {
   .container {
     max-width: 1440px;
   }
-} */
+}

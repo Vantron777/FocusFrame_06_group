@@ -4,8 +4,6 @@
 .advertisement-div {
   display: flex;
 }
-.container {
-}
 
 .advertisement-text {
   color: #bea69e;
@@ -50,10 +48,10 @@
   }
 }
 
-@media screen (min-width: 375px) {
+@media screen and (min-width: 375px) {
 }
 
-@media screen (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .advertisement-text {
     font-size: 40px;
     line-height: 1.25;
@@ -67,7 +65,7 @@
   }
 }
 
-@media screen (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .advertisement-text {
     font-size: 59px;
     line-height: 1.08;
@@ -80,3 +78,5 @@
     letter-spacing: -0.02em;
   }
 }
+
+@media screen and (min-width: 1440px);
