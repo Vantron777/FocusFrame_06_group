@@ -94,38 +94,35 @@
     line-height: 1.4;
     margin-bottom: 4px;
   }
-  .reviews-user{
-      font-size: 14px;
-      line-height: 1.3;
-      margin-bottom: 0;
+  .reviews-user {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 0;
   }
-  .reviews-wraper{
+  .reviews-wraper {
     display: flex;
     width: 100%;
     justify-content: space-between;
   }
-    .reviews-text{
-
-        font-size: 16px;
-    
-      
-        line-height: 1.25;
-    }
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-  .box-two{
+  .box-two {
     display: block;
   }
-  .reviews-list{
+  .reviews-list {
     display: flex;
     gap: 20px;
   }
-  .reviews{
+  .reviews {
     padding-top: 150px;
     padding-bottom: 50px;
   }
-    .reviews-list {
-      padding: 0 ;
-    }
+  .reviews-list {
+    padding: 0;
+  }
 }
