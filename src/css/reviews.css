@@ -35,9 +35,7 @@
 
 .reviews-user-name {
   color: #fff;
-
   font-size: 20px;
-
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 4px;
@@ -45,7 +43,6 @@
 
 .reviews-user {
   color: rgba(255, 255, 255, 0.5);
-
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -66,7 +63,6 @@
 
 .reviews-text {
   color: #fff;
-
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
