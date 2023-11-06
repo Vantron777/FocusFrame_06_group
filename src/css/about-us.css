@@ -1,95 +1,25 @@
-body {
-  font-family: 'DM Sans', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-main {
-  flex-grow: 1;
-}
-
-.about-us-section {
-  /* background-color: aqua; */
-  background: var(--black, #121212);
+.about-us {
   padding: 80px 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .about_us {
+  .about-us {
     padding: 100px 0;
   }
 }
 
-@media only screen and (min-width: 1110px) {
-  .about_us {
+@media only screen and (min-width: 1280px) {
+  .about-us {
     padding: 150px 0;
   }
 }
-
-/* виправити */
-.container-about {
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* Mobile */
-@media only screen and (min-width: 375px) {
-  .container-about {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-/* Tablet */
-@media only screen and (min-width: 768px) {
-  .container-about {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-/* виправити padding and max-width*/
-/* Desktop */
-@media only screen and (min-width: 1110px) {
-  .container-about {
-    max-width: 1110px;
-    /* margin: 0 auto; */
-    padding: 0 15px;
-  }
-}
-
 .about-title {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   text-align: start;
   font-weight: 500;
   line-height: 1.14;
-  /* 114.286% */
   letter-spacing: -0.04em;
-  /* -1.12px */
   padding-bottom: 40px;
 }
 
@@ -102,16 +32,14 @@ main {
 .about-title-us {
   text-align: center;
   color: #bea69e;
-  font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -0.04em;
-  /* letter-spacing: -1.12em; */
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1280px) {
   .about-us-info {
     display: flex;
     flex-direction: row;
@@ -120,12 +48,11 @@ main {
 }
 
 .img-about {
-  /* width: auto; */
   height: auto;
-  /* transform: rotate(-90deg); */
   border-radius: 1000px;
   background: url(<path-to-image>),
-    lightgray -16301954001208846px -514168741151723400px / 670326570992920700% 330827669314972600% no-repeat;
+    lightgray -16301954001208846px -514168741151723400px / 670326570992920700%
+      330827669314972600% no-repeat;
   display: block;
   margin: 0 auto;
 }
@@ -146,14 +73,12 @@ main {
   }
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1280px) {
   .img-about {
     width: 488px;
     height: 260px;
-    margin-right: 40px;
   }
 }
-
 .about-list {
   display: flex;
   flex-wrap: wrap;
@@ -170,13 +95,21 @@ main {
   }
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1280px) {
   .about-list {
     padding-top: 0;
+    padding-left: 40px;
     gap: 20px;
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .about-list {
+    padding-top: 0;
+    padding-left: 50px;
+    gap: 40px;
+  }
+}
 .about-list-item {
   display: flex;
   flex-wrap: wrap;
@@ -185,40 +118,37 @@ main {
 }
 
 .p-about {
-  color: var(--white, #fff);
-  font-family: 'DM Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
-  /* 128.571% */
   letter-spacing: -0.02em;
-  /* -0.28px */
   width: 100%;
 }
 
 @media only screen and (min-width: 375px) {
   .p-about-one {
     width: 335px;
-    /* height: auto; */
   }
 }
 
-/* Tablet */
 @media only screen and (min-width: 768px) {
   .p-about-one {
     width: 280px;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    /* height: auto; */
   }
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1280px) {
   .p-about-one {
     width: 268px;
-    /* height: auto; */
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .p-about-one {
+    width: 314px;
   }
 }
 
@@ -237,7 +167,13 @@ main {
   }
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1280px) {
+  .p-about-two {
+    width: 264px;
+    height: 215px;
+  }
+}
+@media only screen and (min-width: 1440px) {
   .p-about-two {
     width: 276px;
     height: 215px;
