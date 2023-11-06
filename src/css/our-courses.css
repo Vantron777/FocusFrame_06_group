@@ -5,7 +5,7 @@ ol {
 }
 /* Mobile screen */
 .our-courses-section {
-  padding-bottom: 80px;
+  padding-top: 80px;
 }
 .our-courses-text-block {
   display: inline-flex;
@@ -78,6 +78,7 @@ ol {
 .our-courses-block-icon:hover {
   fill: #ffffff;
   transition-duration: 1s;
+  transform: rotate(-40deg);
 }
 .our-courses-card-title {
   color: #fff;
@@ -100,7 +101,7 @@ ol {
 /* Tablet screen */
 @media screen and (min-width: 768px) {
   .our-courses-section {
-    padding-bottom: 100px;
+    padding-top: 100px;
   }
   .our-courses-text-block {
     display: flex;
@@ -146,7 +147,7 @@ ol {
 /* Desktop screen */
 @media screen and (min-width: 1280px) {
   .our-courses-section {
-    padding-bottom: 150px;
+    padding-top: 150px;
   }
   .our-courses-text-block {
     gap: 410px;
@@ -156,6 +157,9 @@ ol {
   }
   .our-courses-text {
     max-width: 405px;
+  }
+  .our-courses-list-card {
+    justify-content: center;
   }
   .our-courses-card {
     width: 347px;
