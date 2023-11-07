@@ -1,7 +1,6 @@
 /* Reset styles */
 body {
-  font-family: 'DM Sans',
-    sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #fff;
   background-color: #121212;
 }
@@ -51,14 +50,12 @@ img {
 }
 
 @media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .background-wrapper {
-    background-image:
-      url(../img/Graphic/Graphic-mob-x2-min.png);
+    background-image: url(../img/Graphic/Graphic-mob-x2-min.png);
   }
 }
-
 
 @media screen and (min-width: 375px) {
   .container {
@@ -76,14 +73,12 @@ img {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .background-wrapper {
-      background-image:
-        url(../img/Graphic/Graphic-tab-x2-min.png);
+      background-image: url(../img/Graphic/Graphic-tab-x2-min.png);
     }
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -110,11 +105,10 @@ img {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .background-wrapper {
-      background-image:
-        url(../img/Graphic/Graphic-1280-x2-min.png);
+      background-image: url(../img/Graphic/Graphic-1280-x2-min.png);
     }
   }
 }
@@ -133,11 +127,10 @@ img {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .background-wrapper {
-      background-image:
-        url(../img/Graphic/Graphic-1440-x2-min.png);
+      background-image: url(../img/Graphic/Graphic-1440-x2-min.png);
     }
   }
 }
