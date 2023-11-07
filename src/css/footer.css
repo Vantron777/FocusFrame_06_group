@@ -20,12 +20,17 @@
 
 .footer-container {
     padding-top: 40px;
-    padding-right: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    max-width: 320px;
     display: flex;
     flex-direction: column;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.footer-info {
+    margin-bottom: 40px;
 }
 
 .footer-logo {
@@ -35,9 +40,7 @@
 
 .footer-logo-icon {}
 
-.footer-address-wrap {
-    margin-bottom: 40px;
-}
+.footer-address-wrap {}
 
 .footer-address {}
 
@@ -54,9 +57,8 @@
     line-height: 1.29;
 }
 
-.footer-top {
+.footer-top-nav {
     display: flex;
-    flex-direction: row;
     margin-bottom: 40px;
 }
 
@@ -85,7 +87,7 @@
 .footer-navigation {}
 
 .footer-menu-list {
-    margin-bottom: 40px;
+    gap: 14px;
 }
 
 .footer-menu-item {}
@@ -100,10 +102,9 @@
     text-transform: uppercase;
 }
 
-.footer-form-wrap {
-    /* display: flex;
-    flex-direction: row;
-    gap: 8px; */
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+    color: #BEA69E;
 }
 
 .footer-form {
@@ -115,6 +116,12 @@
 .footer-input {
     width: 267px;
     height: 60px;
+    color: #121212;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
     flex-shrink: 0;
     padding: 20px 18px;
     border-radius: 12px;
@@ -129,7 +136,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%;
+    line-height: 1.2;
     width: 60px;
     height: 60px;
     padding: 18px 16px;
@@ -145,7 +152,6 @@
 .footer-bottom {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .footer-text {
@@ -155,4 +161,132 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.33;
+    width: 147px;
+    height: 32px;
+}
+
+.footer-subtext {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    width: 116px;
+    height: 32px;
+}
+
+@media screen and (min-width: 375px) {}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        background-image: url(../img/footer/Graphic-tab.png);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image:
+                url(../img/footer/Graphic-tab-2x.png);
+        }
+    }
+
+    .footer-top {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 74px;
+    }
+
+    .footer-logo {
+        margin-bottom: 25px;
+    }
+
+    .footer-address-list {
+        gap: 10px;
+    }
+
+    .footer-soc-wrap {
+        margin-right: 25px;
+    }
+
+    .footer-input {
+        width: 178px;
+        height: 60px;
+    }
+
+    .footer-text {
+        width: 171px;
+        height: 34px;
+    }
+
+    .footer-subtext {
+        width: 134px;
+        height: 34px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        background-image: url(../img/footer/Graphic-1280.png);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image:
+                url(../img/footer/Graphic-1280-2x.png);
+        }
+    }
+
+    .footer-container {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .footer-soc-wrap {
+        margin-right: 50px;
+    }
+
+    .footer-soc-list {
+        gap: 20px;
+    }
+
+    .footer-menu-list {
+        gap: 20px;
+    }
+
+    .footer-input {
+        width: 216px;
+        height: 60px;
+    }
+
+    .footer-form {
+        gap: 16px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .footer {
+        background-image: url(../img/footer/Graphic-1440.png);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image:
+                url(../img/footer/Graphic-1440-2x.png);
+        }
+    }
+
+    .footer-top {
+        margin-bottom: 50px;
+    }
+
+    .footer-soc-wrap {
+        margin-right: 100px;
+    }
 }
