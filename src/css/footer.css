@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
   background-color: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -12,9 +13,6 @@
   .footer {
     background-image: url(../img/footer/Graphic-mob-2x.png);
   }
-}
-
-.container {
 }
 
 .footer-container {
@@ -40,15 +38,6 @@
   fill: #fff;
 }
 
-.footer-logo-icon {
-}
-
-.footer-address-wrap {
-}
-
-.footer-address {
-}
-
 .footer-address-list {
   display: flex;
   flex-direction: column;
@@ -56,9 +45,6 @@
 }
 .footer-address-number {
   margin-bottom: auto;
-}
-
-.footer-address-item {
 }
 
 .footer-address-link {
@@ -85,9 +71,6 @@
   gap: 14px;
 }
 
-.footer-soc-item {
-}
-
 .footer-soc-link {
   color: #fff;
   font-family: DM Sans;
@@ -98,19 +81,10 @@
   text-transform: uppercase;
 }
 
-.footer-navigation-wrap {
-}
-
-.footer-navigation {
-}
-
 .footer-menu-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
-}
-
-.footer-menu-item {
 }
 
 .footer-menu-link {
