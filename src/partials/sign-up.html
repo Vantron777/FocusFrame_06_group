@@ -1,3 +1,54 @@
-<section class="sign-up">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, sunt.</p><!-- ВИДАЛИТИ -->
+<section class="sign-up" id="contacts">
+  <div class="container-section-sign-up">
+    <div class="container-sign-up container">
+      <h2 class="sign-up-title">
+        Sign <span class="sign-up-title-span">Up</span>
+      </h2>
+      <p class="sign-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-up-form">
+        <input
+          type="text"
+          name="user-name"
+          class="sign-up-input"
+          id="user-name"
+          placeholder="Enter your name"
+          pattern="[A-Za-z\- ]+"
+          required
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="sign-up-input"
+          id="user-email"
+          placeholder="Enter your email"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+          required
+        />
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          class="sign-up-textarea"
+          placeholder="Message"
+          required
+        ></textarea>
+      </form>
+      <button type="submit" class="sign-up-btn">Send</button>
+      <p class="sign-up-dop-text">
+        By clicking on “Send” button, you agree to our
+        <a class="sign-up-dop-text-link" href="">Privacy Policy</a>, and allow
+        Promodo to use this information for marketing purposes.
+      </p>
+    </div>
+    <div class="container-sign-up-img">
+      <ul class="sign-up-list">
+        <li class="sign-up-item-first">
+          <div class="img-container-first"><div class="img-first"></div></div>
+        </li>
+        <li class="sign-up-item-second"><div class="img-second"></div></li>
+      </ul>
+    </div>
+  </div>
 </section>
