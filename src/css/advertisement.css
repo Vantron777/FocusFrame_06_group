@@ -1,5 +1,7 @@
 .advertisement {
   overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .advertisement-div {
@@ -79,5 +81,3 @@
     letter-spacing: -0.02em;
   }
 }
-
-@media screen and (min-width: 1440px);
