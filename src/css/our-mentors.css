@@ -1,118 +1,124 @@
 .our-mentors {
-    padding-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
- }
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-.our-mentors-title { 
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -1.12px;
-    text-align: left;
-  }
-  
-  .our-mentors-title-part {
-    color:#BEA69E;
-  }
-  
-  .our-mentors-list {
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
- }
+.our-mentors-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.12px;
+  text-align: left;
+}
+
+.our-mentors-title-part {
+  color: #bea69e;
+}
+
+.our-mentors-list {
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .our-mentors-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.our-mentors-img {
+  border-radius: 200px;
+  background: var(
+    --avatar-user-square-brianna-ware-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
+}
+.team-person {
+  padding-top: 16px;
+  text-align: center;
+}
+.our-mentors-person {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-top: 16px;
+}
+
+.our-mentors-person-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  margin-top: 4px;
+}
+@media screen and (min-width: 768px) {
+  .our-mentors {
+    padding: 100px 0;
+  }
+
+  .our-mentors-title {
+    text-align: left;
+    font-size: 48px;
+    line-height: 1.12;
+  }
+
+  .our-mentors-pic {
+    width: calc((100% - 100px) / 2);
+  }
+
+  .our-mentors-list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 72px; 
     flex-wrap: wrap;
-    width: 100%;
+    gap: 93px 100px;
   }
-  
-  .our-mentors-img {
-    border-radius: 200px;
-    background: var(--avatar-user-square-brianna-ware-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
-  }
-  .team-person {
-    padding-top: 16px;
-    text-align: center;
-    }
   .our-mentors-person {
-    color: #FFF;
     text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    padding-top: 16px;
-    }
-    
-    .our-mentors-person-text {
-    color: rgba(255, 255, 255, 0.50);
+    font-size: 24px;
+    line-height: 1.14;
+  }
+
+  .our-mentors-person-text {
     text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
-    margin-top: 4px;
-    }
-    @media screen and (min-width:768px) {
-          .our-mentors { 
-            padding: 100px 32px;
-          }
-    
-    
-        .our-mentors-title {
-            text-align: left;
-            font-size: 48px;
-            line-height: 1.12;
-          }
-      
-        .our-mentors-pic {
-            width: calc((100% - 100px) / 2);
-           }
-    
-        .our-mentors-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 93px 100px;
-          }
-        .our-mentors-person {
-            text-align: center;
-            font-size: 24px;
-            line-height: 1.14;
-          }
-        
-        .our-mentors-person-text {
-            text-align: center;
-            font-size: 14px;
-            line-height: 1.28;
-            
-        }
-    }
-    @media screen and (min-width:1280px) {
-         .our-mentors{
-            padding: 150px 100px;
-          }
-          .our-mentors-title {
-          font-size: 48px;
-          line-height: 1.12;
-         }
-        .our-mentors-pic {
-            width: calc((100% - 300px) / 4);
-           }
-     
-        .our-mentors-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 100px;
-           }
-          
-        .our-mentors-list:not(:last-child)::after {
-            display: block;
-           }
-    }
- 
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-mentors {
+    padding: 150px 0;
+  }
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 1.12;
+  }
+  .our-mentors-pic {
+    width: calc((100% - 300px) / 4);
+  }
+
+  .our-mentors-person {
+    font-size: 28px;
+  }
+
+  .our-mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .our-mentors-list:not(:last-child)::after {
+    display: block;
+  }
+}
