@@ -93,6 +93,7 @@
     font-weight: 400;
     line-height: 1.285; 
     letter-spacing: -0.04em;
+    display: flex;
     width: 67px;
 }
 .review-stud-list-item-arr {
