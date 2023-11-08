@@ -8,8 +8,8 @@
 }
 
 @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .footer {
     background-image: url(../img/footer/Graphic-mob-2x.png);
   }
@@ -43,6 +43,7 @@
   flex-direction: column;
   height: 46px;
 }
+
 .footer-address-number {
   margin-bottom: auto;
 }
@@ -51,7 +52,6 @@
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.29;
 }
@@ -75,7 +75,6 @@
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
@@ -91,7 +90,6 @@
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
@@ -114,7 +112,6 @@
   color: #121212;
   font-family: DM Sans;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.25;
   flex-shrink: 0;
@@ -129,7 +126,6 @@
   text-align: center;
   font-family: DM Sans;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.2;
   width: 60px;
@@ -153,7 +149,6 @@
   color: #fff;
   font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.33;
 }
@@ -162,15 +157,11 @@
   color: #fff;
   font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.33;
-  width: 116px;
-  height: 32px;
 }
 
-@media screen and (min-width: 375px) {
-}
+@media screen and (min-width: 375px) {}
 
 @media screen and (min-width: 768px) {
   .footer {
@@ -178,8 +169,8 @@
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .footer {
       background-image: url(../img/footer/Graphic-tab-2x.png);
     }
@@ -226,8 +217,8 @@
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .footer {
       background-image: url(../img/footer/Graphic-1280-2x.png);
     }
@@ -266,8 +257,8 @@
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .footer {
       background-image: url(../img/footer/Graphic-1440-2x.png);
     }
