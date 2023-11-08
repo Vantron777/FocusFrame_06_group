@@ -103,7 +103,7 @@
 }
 .review-star {
   width: 104px;
-  padding-left: 40px;
+  margin-left: 40px;
 }
 .review-star-list {
   gap: 12px;
