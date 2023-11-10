@@ -132,7 +132,8 @@
   text-transform: uppercase;
 }
 
-.about-link {
+.mob-menu-link:hover,
+.mob-menu-link:focus {
   font-weight: 700;
 }
 
